@@ -1,3 +1,7 @@
+body{
+    font-family: Arial;
+    font-weight: bold;
+}
 .top {
     display: flex;
     flex-direction: row;
@@ -5,16 +9,19 @@
     align-items: center;
     background-color: bisque;
     padding: 2rem;
+}
 
-    .logo {
-        max-width: 50px;
-    }
-
+.logo {
+    width: 5rem;
+    height: auto;
 }
 
 a {
+        margin: 0.5rem;
         border: 2px solid black;
         padding: 0.5rem;
+        background-color: lightgray;
+        text-decoration: none;
     }
 
 .bottom {
