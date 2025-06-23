@@ -1,0 +1,28 @@
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    padding: 2rem;
+
+    .logo {
+        max-width: 50px;
+    }
+
+}
+
+a {
+        border: 2px solid black;
+        padding: 0.5rem;
+    }
+
+.bottom {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: bisque;
+    padding: 2rem;
+    
+}
