@@ -4,10 +4,12 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: Arial;
+  color: white;
 }
 
-i {
-  color: white;
+h1, h2 {
+  align-self: center;
+  padding: 1rem;
 }
 
 .body {
@@ -21,7 +23,7 @@ i {
 .header-1 {
   display: flex;
   align-items: center;
-  padding: 0rem 10rem;
+  padding: 0rem 5rem;
   justify-content: space-between;
   background-color: rgb(32, 32, 32);
 
@@ -76,7 +78,7 @@ i {
 
       &:hover {
         color: rgb(52, 197, 255);
-        background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(86, 145, 168));
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(73, 203, 255));
       }
     }
   }
@@ -85,7 +87,7 @@ i {
 .header-3 {
   display: flex;
   align-items: center;
-  padding: 0rem 10rem;
+  padding: 0rem 5rem;
   justify-content: space-between;
   background-color: rgb(32, 32, 32);
 
@@ -116,7 +118,7 @@ i {
 .header-4 {
   display: flex;
   align-items: center;
-  padding: 0rem 10rem;
+  padding: 0rem 5rem;
   justify-content: space-between;
   background-color: rgb(32, 32, 32);
 
@@ -134,7 +136,7 @@ i {
       font-weight: bold;
       font-size: 1rem;
       padding: 0.7rem 1rem;
-      transition-duration: 100ms;
+      transition-duration: 400ms;
       letter-spacing: 0.1rem;
       border-bottom: 4px solid transparent;
 
@@ -150,6 +152,43 @@ i {
   .right {
     display: flex;
     gap: 2rem;
+  }
+}
+
+.header-5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(32, 32, 32);
+  height: 4rem;
+
+  .logo {
+      max-width: 6rem;
+  }
+
+  .btn-group {
+    display: flex;
+    gap: 0.5rem;
+    height: 100%;
+
+    .btn {
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 0.7rem 1rem;
+      transition-duration: 100ms;
+      letter-spacing: 0.1rem;
+      display: flex;
+      align-items: center;
+      height: 100%;
+
+      &:hover {
+        color: rgb(52, 197, 255);
+        text-shadow: 1px 1px 3rem rgb(43, 230, 255);
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(86, 145, 168));
+        border-bottom: 4px solid rgb(52, 197, 255);
+      }
+    }
   }
 }
 
