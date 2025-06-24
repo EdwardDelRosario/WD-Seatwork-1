@@ -220,7 +220,7 @@ ul {
       transition-duration: 300ms;
 
       &:hover {
-        color: rgb(141, 141, 141);
+        color: rgb(187, 187, 187);
       }
     }
   }
@@ -229,4 +229,50 @@ ul {
     padding: 0.5rem 0rem;
     align-self: center;
   }
+}
+
+.footer-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(39, 39, 39);
+  padding: 1rem;
+  gap: 1rem;
+
+  .top, .middle {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    background-color: rgb(20, 20, 20);
+    gap: 1rem;
+    padding: 1.5rem 3rem;
+    font-weight: bold;
+    width: 100%;
+    max-width: 15rem;
+  }
+}
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    .btn {
+      transition-duration: 300ms;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
 }
