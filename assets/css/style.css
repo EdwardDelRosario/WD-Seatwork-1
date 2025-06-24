@@ -6,6 +6,10 @@
   font-family: Arial;
 }
 
+i {
+  color: white;
+}
+
 .body {
   display: flex;
   flex-direction: column;
@@ -106,6 +110,46 @@
         text-shadow: 1px 1px 2rem rgb(43, 230, 255);
       }
     }
+  }
+}
+
+.header-4 {
+  display: flex;
+  align-items: center;
+  padding: 0rem 10rem;
+  justify-content: space-between;
+  background-color: rgb(32, 32, 32);
+
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    .logo {
+      max-width: 10rem;
+    }
+
+    .btn {
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 0.7rem 1rem;
+      transition-duration: 100ms;
+      letter-spacing: 0.1rem;
+      border-bottom: 4px solid transparent;
+
+
+      &:hover {
+        color: rgb(52, 197, 255);
+        text-shadow: 1px 1px 3rem rgb(43, 230, 255);
+        border-bottom: 4px solid rgb(52, 197, 255);
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    gap: 2rem;
   }
 }
 
